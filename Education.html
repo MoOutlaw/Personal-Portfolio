@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MQ Portfolio | Education</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <button class="mobile-menu" aria-label="Open menu">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="portfolio-shell">
+            <aside class="sidebar">
+                <a class="brand" href="index.html">MQ</a>
+                <nav class="nav-links">
+                    <a class="" href="index.html"
+                        ><i class="fa fa-home"></i> Home</a
+                    >
+                    <a class="" href="Skills.html"
+                        ><i class="fa fa-code"></i> Skills</a
+                    >
+                    <a class="active" href="Education.html"
+                        ><i class="fa fa-graduation-cap"></i> Education</a
+                    >
+                    <a class="" href="Experience.html"
+                        ><i class="fa fa-briefcase"></i> Experience</a
+                    >
+                    <a class="" href="Projects.html"
+                        ><i class="fa fa-folder-open"></i> Projects</a
+                    >
+                    <a class="" href="Contact.html"
+                        ><i class="fa fa-envelope"></i> Contact</a
+                    >
+                </nav>
+                <div class="sidebar-socials">
+                    <a href="https://github.com/MoOutlaw"
+                        ><i class="fa fa-github"></i></a
+                    ><a
+                        href="https://www.linkedin.com/in/mohammed-qasem-1a4b01182/"
+                        ><i class="fa fa-linkedin"></i></a
+                    ><a href="mailto:mohammed166arab@gmail.com"
+                        ><i class="fa fa-envelope-o"></i
+                    ></a>
+                </div>
+            </aside>
+            <main class="page-content">
+                <section class="page-header">
+                    <h1>Education & Certificates</h1>
+                    <p>
+                        My academic background, current studies, and additional
+                        professional learning.
+                    </p>
+                </section>
+                <section class="education-grid">
+                    <div class="timeline card">
+                        <h2>Education</h2>
+                        <div class="timeline-item">
+                            <span>2025 - Present</span>
+                            <article>
+                                <h3>BSc Computer Science</h3>
+                                <p>Aston University</p>
+                                <small
+                                    >Programming, software engineering,
+                                    algorithms, networks, cybersecurity,
+                                    databases, and project management.</small
+                                >
+                            </article>
+                        </div>
+                        <div class="timeline-item">
+                            <span>2023 - 2025</span>
+                            <article>
+                                <h3>National Extended Diploma in IT Level 3</h3>
+                                <p>Coventry College</p>
+                                <small
+                                    >Focused on IT systems, software projects,
+                                    cybersecurity, networking, and project
+                                    documentation.</small
+                                >
+                            </article>
+                        </div>
+                        <div class="timeline-item">
+                            <span>2022 - 2023</span>
+                            <article>
+                                <h3>National Extended Diploma in IT Level 2</h3>
+                                <p>Coventry College</p>
+                                <small
+                                    >Built foundations in IT, hardware,
+                                    software, and digital skills.</small
+                                >
+                            </article>
+                        </div>
+                    </div>
+                    <div class="certificates card">
+                        <h2>Certificates</h2>
+                        <div class="certificate-grid">
+                            <article>
+                                <h3>Santander Project Management</h3>
+                                <p>
+                                    Project planning and delivery fundamentals.
+                                </p>
+                                <span>Certificate</span>
+                            </article>
+                            <article>
+                                <h3>Agile Fundamentals</h3>
+                                <p>
+                                    Agile concepts, sprint planning, and
+                                    teamwork.
+                                </p>
+                                <span>Learning</span>
+                            </article>
+                            <article>
+                                <h3>PRINCE2 Foundation Planning</h3>
+                                <p>Structured project management self-study.</p>
+                                <span>In progress</span>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <script>
+            const menuButton=document.querySelector('.mobile-menu');const sidebar=document.querySelector('.sidebar');menuButton.addEventListener('click',()=>sidebar.classList.toggle('show'));
+        </script>
+    </body>
+</html>

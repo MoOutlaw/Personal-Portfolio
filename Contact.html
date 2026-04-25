@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MQ Portfolio | Contact</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <button class="mobile-menu" aria-label="Open menu">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="portfolio-shell">
+            <aside class="sidebar">
+                <a class="brand" href="index.html">MQ</a>
+                <nav class="nav-links">
+                    <a class="" href="index.html"
+                        ><i class="fa fa-home"></i> Home</a
+                    >
+                    <a class="" href="Skills.html"
+                        ><i class="fa fa-code"></i> Skills</a
+                    >
+                    <a class="" href="Education.html"
+                        ><i class="fa fa-graduation-cap"></i> Education</a
+                    >
+                    <a class="" href="Experience.html"
+                        ><i class="fa fa-briefcase"></i> Experience</a
+                    >
+                    <a class="" href="Projects.html"
+                        ><i class="fa fa-folder-open"></i> Projects</a
+                    >
+                    <a class="active" href="Contact.html"
+                        ><i class="fa fa-envelope"></i> Contact</a
+                    >
+                </nav>
+                <div class="sidebar-socials">
+                    <a href="https://github.com/MoOutlaw"
+                        ><i class="fa fa-github"></i></a
+                    ><a
+                        href="https://www.linkedin.com/in/mohammed-qasem-1a4b01182/"
+                        ><i class="fa fa-linkedin"></i></a
+                    ><a href="mailto:mohammed166arab@gmail.com"
+                        ><i class="fa fa-envelope-o"></i
+                    ></a>
+                </div>
+            </aside>
+            <main class="page-content">
+                <section class="page-header">
+                    <h1>Contact Me</h1>
+                    <p>
+                        Let’s connect about opportunities, collaborations,
+                        project support roles, IT support roles or technical
+                        junior positions.
+                    </p>
+                </section>
+                <section class="contact-grid">
+                    <div class="contact-panel card">
+                        <h2>Get in touch</h2>
+                        <p>
+                            Feel free to reach out for opportunities, project
+                            collaboration, or a quick conversation.
+                        </p>
+                        <div class="contact-line">
+                            <i class="fa fa-envelope-o"></i>
+                            mohammed166arab@gmail.com
+                        </div>
+                        <div class="contact-line">
+                            <i class="fa fa-phone"></i> 07863 557491
+                        </div>
+                        <div class="contact-line">
+                            <i class="fa fa-map-marker"></i> Birmingham, UK
+                        </div>
+                        <div class="contact-line">
+                            <i class="fa fa-car"></i> Full UK Driving Licence
+                            Holder
+                        </div>
+                        <div class="contact-socials">
+                            <a href="https://github.com/MoOutlaw"
+                                ><i class="fa fa-github"></i></a
+                            ><a
+                                href="https://www.linkedin.com/in/mohammed-qasem-1a4b01182/"
+                                ><i class="fa fa-linkedin"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <form
+                        class="contact-form card"
+                        action="https://api.web3forms.com/submit"
+                        method="POST"
+                    >
+                        <input
+                            type="hidden"
+                            name="access_key"
+                            value="9d0ce508-832d-4464-aa34-86018d7f3771"
+                        /><input
+                            type="hidden"
+                            name="subject"
+                            value="New portfolio enquiry for Mohammed Qasem"
+                        /><input
+                            type="hidden"
+                            name="from_name"
+                            value="MQ Personal Portfolio"
+                        /><input
+                            type="checkbox"
+                            name="botcheck"
+                            style="display: none"
+                        /><label
+                            >Your Name<input
+                                name="name"
+                                placeholder="Enter your name"
+                                required /></label
+                        ><label
+                            >Your Email<input
+                                name="email"
+                                type="email"
+                                placeholder="Enter your email"
+                                required /></label
+                        ><label
+                            >Your Message<textarea
+                                name="message"
+                                placeholder="Type your message here..."
+                                required
+                            ></textarea></label
+                        ><button type="submit">
+                            <i class="fa fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </section>
+                <section class="section-block">
+                    <div class="download-panel card">
+                        <div>
+                            <span class="eyebrow">CV Downloads</span>
+                            <h2>Download my CVs</h2>
+                            <p>
+                                Use the version that best matches the
+                                opportunity: project management/project
+                                coordinator or technical IT/software support.
+                            </p>
+                        </div>
+                        <div class="download-cards">
+                            <a href="Mohammed-Qasem-CV-JPM.pdf" download
+                                ><i class="fa fa-file-pdf-o"></i
+                                ><strong>Project Management CV</strong
+                                ><small
+                                    >Junior PM / Project Coordinator</small
+                                ></a
+                            ><a href="Mohammed-Qasem-CV-Technical.pdf" download
+                                ><i class="fa fa-file-pdf-o"></i
+                                ><strong>Technical CV</strong
+                                ><small
+                                    >IT, software, networking and support</small
+                                ></a
+                            >
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <script>
+            const menuButton=document.querySelector('.mobile-menu');const sidebar=document.querySelector('.sidebar');menuButton.addEventListener('click',()=>sidebar.classList.toggle('show'));
+        </script>
+        <script src="notify-config.js"></script>
+        <script src="contact-handler.js"></script>
+    </body>
+</html>
